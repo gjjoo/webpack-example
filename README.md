@@ -41,6 +41,21 @@
   - url-loader
 - menifest
 
+## example5
+- html
+  - html-webpack-plugin
+- javascript
+- webpack
+- css
+  - style-loader
+  - css-loader
+  - extract-text-webpack-plugin
+  - postcss
+- image
+  - file-loader
+  - url-loader
+- menifest
+
 
 ===== ===== =====
 
