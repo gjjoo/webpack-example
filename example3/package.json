@@ -8,10 +8,11 @@
     "css",
     "image"
   ],
-  "author": "",
+  "author": "jakejoo",
   "license": "ISC",
   "scripts": {
-    "build": "webpack -p"
+    "build": "webpack",
+    "build:prod": "webpack -p"
   },
   "dependencies": {
     "lodash": "^4.17.4"

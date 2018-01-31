@@ -1,6 +1,7 @@
-# example3
+# example4
 - html
 - javascript
 - webpack
 - css
 - image
+- menifest

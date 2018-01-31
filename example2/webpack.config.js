@@ -3,12 +3,10 @@ const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-const VENDOR_LIBS = ['lodash'];
-
 module.exports = {
   entry: {
     app: './src/index.js',
-    vendor: VENDOR_LIBS
+    vendor: ['lodash']
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -27,7 +25,7 @@ module.exports = {
   },
   plugins: [
     new webpack.optimize.CommonsChunkPlugin({
-      name: ['vendor']
+      name: ['vendor', 'manifest']
     }),
     new ExtractTextPlugin('static/css/[name].[contenthash:8].css'),
     new HtmlWebpackPlugin({

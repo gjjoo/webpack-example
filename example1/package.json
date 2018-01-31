@@ -9,7 +9,8 @@
   "author": "jakejoo",
   "license": "MIT",
   "scripts": {
-    "build": "webpack -p"
+    "build": "webpack",
+    "build:prod": "webpack -p"
   },
   "dependencies": {
     "lodash": "^4.17.4"
