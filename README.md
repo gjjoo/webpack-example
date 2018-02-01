@@ -1,4 +1,5 @@
 ## example1
+Basic Starter
 - webpack
 - html
   - html-webpack-plugin
@@ -6,6 +7,7 @@
   - webpack.optimize.CommonsChunkPlugin
 
 ## example2
+example1 + css
 - webpack
 - html
   - html-webpack-plugin
@@ -17,6 +19,7 @@
   - extract-text-webpack-plugin
 
 ## example3
+example2 + image
 - webpack
 - html
   - html-webpack-plugin
@@ -31,6 +34,7 @@
   - url-loader
 
 ## example4
+example3 + menifest
 - webpack
 - html
   - html-webpack-plugin
@@ -46,6 +50,7 @@
 - menifest
 
 ## example5
+example4 + postcss
 - webpack
 - html
   - html-webpack-plugin
@@ -62,6 +67,7 @@
 - menifest
 
 ## example6
+example5 + sass
 - webpack
 - html
   - html-webpack-plugin
@@ -121,7 +127,8 @@ TSLint와 Typescript 사용하기
 - menifest
 
 ## example9
-webpack-dev-server를 이용하여 개발을 좀 더 편하게!
+example1 + webpack-dev-server
+웹팩 개발서버를 이용하여 개발을 좀 더 편하게!
 - webpack
 - webpack-dev-server
 - html
