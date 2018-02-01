@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "keywords": [
-    "javascript",
     "webpack",
+    "html",
+    "javascript",
     "css",
     "image",
     "manifest"
@@ -12,8 +13,8 @@
   "author": "jakejoo",
   "license": "ISC",
   "scripts": {
-    "build": "webpack",
-    "build:prod": "webpack -p"
+    "build": "webpack --config webpack.config.dev.js",
+    "build:prod": "webpack --config webpack.config.prod.js -p"
   },
   "dependencies": {
     "lodash": "^4.17.4"

@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import './assets/styles/imageViewer.css';
+import './assets/styles/imageViewer.scss';
 import ryan from './assets/images/ryan.jpg';
 
 function component() {

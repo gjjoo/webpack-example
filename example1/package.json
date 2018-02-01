@@ -3,14 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "keywords": [
-    "javascript",
-    "webpack"
+    "webpack",
+    "html",
+    "javascript"
   ],
   "author": "jakejoo",
   "license": "MIT",
   "scripts": {
-    "build": "webpack",
-    "build:prod": "webpack -p"
+    "build": "webpack --config webpack.config.dev.js",
+    "build:prod": "webpack --config webpack.config.prod.js -p"
   },
   "dependencies": {
     "lodash": "^4.17.4"

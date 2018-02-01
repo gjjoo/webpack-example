@@ -1,6 +1,6 @@
 # example3
+- webpack
 - html
 - javascript
-- webpack
 - css
 - image

@@ -4,6 +4,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
+  devtool: 'cheap-module-source-map',
   entry: {
     app: './src/index.js',
     vendor: ['lodash']
@@ -18,7 +19,15 @@ module.exports = {
         test: /\.css$/,
         use: ExtractTextPlugin.extract({
           fallback: 'style-loader',
-          use: 'css-loader'
+          use: [
+            {
+              loader: 'css-loader',
+              options: {
+                importLoaders: 1,
+                sourceMap: true
+              }
+            }
+          ]
         })
       }
     ]
@@ -30,19 +39,7 @@ module.exports = {
     new ExtractTextPlugin('static/css/[name].[contenthash:8].css'),
     new HtmlWebpackPlugin({
       inject: true,
-      template: './index.html',
-      minify: {
-        removeComments: true,
-        collapseWhitespace: true,
-        removeRedundantAttributes: true,
-        useShortDoctype: true,
-        removeEmptyAttributes: true,
-        removeStyleLinkTypeAttributes: true,
-        keepClosingSlash: true,
-        minifyJS: true,
-        minifyCSS: true,
-        minifyURLs: true,
-      },
+      template: './index.html'
     })
   ]
 };

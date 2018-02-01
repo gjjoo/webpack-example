@@ -3,6 +3,7 @@ const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
+  devtool: 'cheap-module-source-map',
   entry: {
     app: './src/index.js',
     vendor: ['lodash']
@@ -17,19 +18,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       inject: true,
-      template: './index.html',
-      minify: {
-        removeComments: true,
-        collapseWhitespace: true,
-        removeRedundantAttributes: true,
-        useShortDoctype: true,
-        removeEmptyAttributes: true,
-        removeStyleLinkTypeAttributes: true,
-        keepClosingSlash: true,
-        minifyJS: true,
-        minifyCSS: true,
-        minifyURLs: true,
-      },
+      template: './index.html'
     })
   ]
 };

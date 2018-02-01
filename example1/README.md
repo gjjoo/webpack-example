@@ -1,5 +1,4 @@
 # example1
-javascript + webpack basic starter kit
+- webpack
 - html
 - javascript
-- webpack

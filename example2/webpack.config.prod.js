@@ -4,6 +4,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
+  devtool: false,
   entry: {
     app: './src/index.js',
     vendor: ['lodash']
@@ -18,20 +19,15 @@ module.exports = {
         test: /\.css$/,
         use: ExtractTextPlugin.extract({
           fallback: 'style-loader',
-          use: 'css-loader'
-        })
-      },
-      {
-        test: /\.(png|jpg|gif)$/,
-        use: [
-          {
-            loader: 'url-loader',
-            options: {
-              limit: 10000,
-              name: 'static/media/[name].[hash:8].[ext]',
+          use: [
+            {
+              loader: 'css-loader',
+              options: {
+                importLoaders: 1
+              }
             }
-          }
-        ]
+          ]
+        })
       }
     ]
   },
@@ -54,7 +50,7 @@ module.exports = {
         minifyJS: true,
         minifyCSS: true,
         minifyURLs: true,
-      },
+      }
     })
   ]
 };

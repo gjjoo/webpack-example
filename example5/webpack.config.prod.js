@@ -6,6 +6,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ManifestPlugin = require('webpack-manifest-plugin');
 
 module.exports = {
+  devtool: false,
   entry: {
     app: './src/index.js',
     vendor: ['lodash']
@@ -25,7 +26,7 @@ module.exports = {
               {
                 loader: 'css-loader',
                 options: {
-                  importLoaders: 1,
+                  importLoaders: 1
                 }
               },
               {
@@ -43,7 +44,7 @@ module.exports = {
                       ],
                       flexbox: 'no-2009',
                     }),
-                  ],
+                  ]
                 }
               }
             ]
@@ -83,7 +84,7 @@ module.exports = {
         minifyJS: true,
         minifyCSS: true,
         minifyURLs: true,
-      },
+      }
     }),
     new ManifestPlugin({
       fileName: 'asset-manifest.json',
