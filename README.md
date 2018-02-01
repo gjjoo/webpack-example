@@ -74,6 +74,7 @@
   - postcss
 - sass
   - sass-loader
+  - node-sass
 - image
   - file-loader
   - url-loader
