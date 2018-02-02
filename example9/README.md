@@ -1,10 +1,11 @@
-# example8
+# example9
 - webpack
 - webpack-dev-server
 - html
 - javascript
 - eslint
 - babel
+- react
 - css
 - postcss
 - sass

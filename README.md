@@ -99,6 +99,7 @@ example1 + webpack-dev-server
 ## example8
 ESLint와 Babel을 이용하여 자바스크립트 활용성 높이기
 - webpack
+- webpack-dev-server
 - html
   - html-webpack-plugin
 - javascript
@@ -128,7 +129,43 @@ ESLint와 Babel을 이용하여 자바스크립트 활용성 높이기
   - url-loader
 - menifest
 
-## example9 (ADD)
+## example9
+example8 + react
+- webpack
+- webpack-dev-server
+- html
+  - html-webpack-plugin
+- javascript
+  - webpack.optimize.CommonsChunkPlugin
+- eslint
+  - eslint
+  - eslint-loader
+  - eslint-plugin-import
+  - eslint-plugin-jsx-a11y
+  - eslint-plugin-react
+  - eslint-config-airbnb (airbnb react)
+- babel
+  - babel-loader
+  - babel-core
+  - babel-preset-env
+  - babel-preset-react
+- react
+  - react
+  - react-dom
+- css
+  - style-loader
+  - css-loader
+  - extract-text-webpack-plugin
+  - postcss
+- sass
+  - sass-loader
+  - node-sass
+- image
+  - file-loader
+  - url-loader
+- menifest
+
+## example10 (ADD)
 TSLint와 Typescript 사용하기
 - webpack
 - html
