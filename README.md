@@ -86,13 +86,35 @@ example5 + sass
   - url-loader
 - menifest
 
-## example7 (ADD)
+## example7
+example1 + webpack-dev-server
+웹팩 개발서버를 이용하여 개발을 좀 더 편하게!
+- webpack
+- webpack-dev-server
+- html
+  - html-webpack-plugin
+- javascript
+  - webpack.optimize.CommonsChunkPlugin
+
+## example8
 ESLint와 Babel을 이용하여 자바스크립트 활용성 높이기
 - webpack
 - html
   - html-webpack-plugin
 - javascript
   - webpack.optimize.CommonsChunkPlugin
+- eslint
+  - eslint
+  - eslint-loader
+  - eslint-plugin-import
+  - eslint-plugin-node
+  - eslint-plugin-promise
+  - eslint-plugin-standard
+  - eslint-config-airbnb-base (airbnb)
+- babel
+  - babel-loader
+  - babel-core
+  - babel-preset-env
 - css
   - style-loader
   - css-loader
@@ -106,7 +128,7 @@ ESLint와 Babel을 이용하여 자바스크립트 활용성 높이기
   - url-loader
 - menifest
 
-## example8 (ADD)
+## example9 (ADD)
 TSLint와 Typescript 사용하기
 - webpack
 - html
@@ -125,16 +147,6 @@ TSLint와 Typescript 사용하기
   - file-loader
   - url-loader
 - menifest
-
-## example9
-example1 + webpack-dev-server
-웹팩 개발서버를 이용하여 개발을 좀 더 편하게!
-- webpack
-- webpack-dev-server
-- html
-  - html-webpack-plugin
-- javascript
-  - webpack.optimize.CommonsChunkPlugin
 
 ===== ===== =====
 

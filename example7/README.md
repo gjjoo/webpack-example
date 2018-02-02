@@ -1,4 +1,4 @@
-# example9
+# example7
 - webpack
 - webpack-dev-server
 - html

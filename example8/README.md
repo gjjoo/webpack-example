@@ -1,0 +1,11 @@
+# example8
+- webpack
+- html
+- javascript
+- eslint
+- babel
+- css
+- postcss
+- sass
+- image
+- menifest
