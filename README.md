@@ -165,13 +165,19 @@ example8 + react
   - url-loader
 - menifest
 
-## example10 (ADD)
+## example10
 TSLint와 Typescript 사용하기
 - webpack
 - html
   - html-webpack-plugin
 - javascript
   - webpack.optimize.CommonsChunkPlugin
+- tslint
+   - tslint
+   - tslint-loader
+- typescript
+  - typescript
+  - ts-loader
 - css
   - style-loader
   - css-loader

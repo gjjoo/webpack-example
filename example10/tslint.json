@@ -1,0 +1,24 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "rules": {
+      "quotemark": [true, "single"],
+      "no-console": false,
+      "ordered-imports": false,
+      "no-var-requires": false,
+      "no-consecutive-blank-lines": true,
+      "no-construct": true,
+      "no-debugger": true,
+      "no-duplicate-variable": true,
+      "no-empty": true,
+      "no-eval": true,
+      "no-shadowed-variable": false,
+      "no-string-literal": true,
+      "no-switch-case-fall-through": true,
+      "no-trailing-whitespace": false,
+      "no-unused-expression": true,
+      "no-use-before-declare": true
+    }
+}
