@@ -1,7 +1,0 @@
-# example4
-- webpack
-- html
-- javascript
-- css
-- image
-- menifest

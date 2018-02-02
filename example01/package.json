@@ -1,0 +1,23 @@
+{
+  "name": "example01",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [
+    "webpack",
+    "html",
+    "javascript"
+  ],
+  "author": "jakejoo",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --config webpack.config.dev.js",
+    "build:prod": "webpack --config webpack.config.prod.js -p"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.10.0"
+  }
+}

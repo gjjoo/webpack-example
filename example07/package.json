@@ -1,0 +1,30 @@
+{
+  "name": "example07",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [
+    "webpack",
+    "webpack-dev-server",
+    "html",
+    "javascript",
+    "css",
+    "postcss",
+    "sass",
+    "image",
+    "manifest"
+  ],
+  "author": "jakejoo",
+  "license": "ISC",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.dev.js",
+    "build": "webpack --config webpack.config.prod.js -p"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}
