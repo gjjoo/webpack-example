@@ -94,7 +94,6 @@ example1 + webpack-dev-server
 - html
   - html-webpack-plugin
 - javascript
-  - webpack.optimize.CommonsChunkPlugin
 
 ## example08
 ESLint와 Babel을 이용하여 자바스크립트 활용성 높이기
@@ -103,7 +102,6 @@ ESLint와 Babel을 이용하여 자바스크립트 활용성 높이기
 - html
   - html-webpack-plugin
 - javascript
-  - webpack.optimize.CommonsChunkPlugin
 - eslint
   - eslint
   - eslint-loader
@@ -136,7 +134,6 @@ example8 + react
 - html
   - html-webpack-plugin
 - javascript
-  - webpack.optimize.CommonsChunkPlugin
 - eslint
   - eslint
   - eslint-loader
@@ -171,13 +168,41 @@ TSLint와 Typescript 사용하기
 - html
   - html-webpack-plugin
 - javascript
-  - webpack.optimize.CommonsChunkPlugin
 - tslint
    - tslint
    - tslint-loader
 - typescript
   - typescript
   - ts-loader
+- css
+  - style-loader
+  - css-loader
+  - extract-text-webpack-plugin
+  - postcss
+- sass
+  - sass-loader
+  - node-sass
+- image
+  - file-loader
+  - url-loader
+- menifest
+
+## example11
+example10 + react 사용하기
+- webpack
+- html
+  - html-webpack-plugin
+- javascript
+- tslint
+   - tslint
+   - tslint-loader
+   - tslint-react
+- typescript
+  - typescript
+  - ts-loader
+- react
+  - react, @types/react
+  - react-dom, @types/react-dom
 - css
   - style-loader
   - css-loader
