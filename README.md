@@ -165,6 +165,7 @@ example8 + react
 ## example10
 TSLint와 Typescript 사용하기
 - webpack
+- webpack-dev-server
 - html
   - html-webpack-plugin
 - javascript
@@ -190,6 +191,7 @@ TSLint와 Typescript 사용하기
 ## example11
 example10 + react 사용하기
 - webpack
+- webpack-dev-server
 - html
   - html-webpack-plugin
 - javascript
@@ -203,6 +205,41 @@ example10 + react 사용하기
 - react
   - react, @types/react
   - react-dom, @types/react-dom
+- css
+  - style-loader
+  - css-loader
+  - extract-text-webpack-plugin
+  - postcss
+- sass
+  - sass-loader
+  - node-sass
+- image
+  - file-loader
+  - url-loader
+- menifest
+
+# example-12
+handlerbars 사용하기
+- webpack
+- webpack-dev-server
+- html
+  - html-webpack-plugin
+- javascript
+- handlebars
+  - handlebars
+  - handlebars-loader
+- eslint
+  - eslint
+  - eslint-loader
+  - eslint-plugin-import
+  - eslint-plugin-node
+  - eslint-plugin-promise
+  - eslint-plugin-standard
+  - eslint-config-airbnb-base (airbnb)
+- babel
+  - babel-loader
+  - babel-core
+  - babel-preset-env
 - css
   - style-loader
   - css-loader

@@ -1,0 +1,13 @@
+# example12
+- webpack
+- webpack-dev-server
+- html
+- javascript
+- handlebars
+- eslint
+- babel
+- css
+- postcss
+- sass
+- image
+- menifest
