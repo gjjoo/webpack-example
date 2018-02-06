@@ -218,7 +218,7 @@ example10 + react 사용하기
   - url-loader
 - menifest
 
-# example-12
+# example12
 handlerbars 사용하기
 - webpack
 - webpack-dev-server
