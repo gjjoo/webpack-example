@@ -6,12 +6,7 @@
     "webpack",
     "webpack-dev-server",
     "html",
-    "javascript",
-    "css",
-    "postcss",
-    "sass",
-    "image",
-    "manifest"
+    "javascript"
   ],
   "author": "jakejoo",
   "license": "ISC",
